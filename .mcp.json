@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fli": {
+      "command": "pipx",
+      "args": ["run", "--backend", "pip", "--spec", "flights[mcp]", "fli-mcp"]
+    }
+  }
+}
